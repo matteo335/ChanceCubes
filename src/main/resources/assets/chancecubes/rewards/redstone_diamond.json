@@ -1,17 +1,17 @@
 {
   "chancecubes:redstone_diamond": {
-    "chance": 10,
+    "chance": 20,
     "Item": [
       {
         "item": {
           "id": "minecraft:redstone",
-          "Count": 1
+          "Count": 14
         }
       },
       {
         "item": {
           "id": "minecraft:diamond",
-          "Count": 1
+          "Count": 4
         }
       }
     ]
