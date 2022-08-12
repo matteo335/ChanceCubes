@@ -1,10 +1,11 @@
 {
   "chancecubes:pssst": {
-    "chance": -5,
+    "chance": -15,
     "Entity": [
       {
         "entity": {
           "id": "Creeper"
+          "count": 5,
         }
       }
     ],
