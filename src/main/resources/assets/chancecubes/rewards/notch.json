@@ -1,11 +1,11 @@
 {
   "chancecubes:notch": {
-    "chance": 70,
+    "chance": 37,
     "Item": [
       {
         "item": {
           "id": "minecraft:golden_apple",
-          "Count": 1,
+          "Count": 4,
           "Damage": 1,
           "tag": {
             "display": {
