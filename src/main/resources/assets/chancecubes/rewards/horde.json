@@ -1,6 +1,6 @@
 {
   "chancecubes:horde": {
-    "chance": -25,
+    "chance": -20,
     "Message": [
       {
         "message": "Release the horde!",
@@ -12,7 +12,7 @@
         "entity": {
           "id": "Zombie"
         },
-        "copies": 15
+        "copies": 25
       }
     ]
   }
