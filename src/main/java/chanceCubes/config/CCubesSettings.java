@@ -11,18 +11,18 @@ public class CCubesSettings
 {
 	public static int d20RenderID = -1;
 
-	public static int pendantUses = 32;
+	public static int pendantUses = 12;
 
 	public static boolean enableHardCodedRewards = true;
 
-	public static int rangeMin = 20;
-	public static int rangeMax = 20;
+	public static int rangeMin = 0;
+	public static int rangeMax = 40;
 	public static boolean d20UseNormalChances = false;
 
 	public static boolean oreGeneration = true;
 	public static int oreGenAmount = 4;
 	public static boolean surfaceGeneration = true;
-	public static int surfaceGenAmount = 1;
+	public static int surfaceGenAmount = 2;
 	public static String[] blockedWorlds = new String[]{};
 	public static boolean chestLoot = true;
 	public static boolean craftingRecipie = true;
@@ -37,7 +37,7 @@ public class CCubesSettings
 	public static boolean hasHolidayTexture = false;
 	public static String holidayTextureName = "";
 
-	public static int dropHeight = 20;
+	public static int dropHeight = 3;
 
 	public static List<IBlockState> nonReplaceableBlocksIMC = new ArrayList<>();
 	public static List<IBlockState> nonReplaceableBlocks = new ArrayList<>();
