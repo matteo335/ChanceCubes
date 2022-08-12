@@ -1,0 +1,15 @@
+{
+"chancecubes:small_chaos_shard": {
+"value": 200,
+"isGiantCubeReward":true,
+
+"Item": [
+  {
+    "item": {
+      "id": "draconicevolution:chaos_shard.fragLarge",
+      "Count": 3
+    }
+  }
+]
+}
+}
