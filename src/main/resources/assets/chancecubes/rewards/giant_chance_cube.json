@@ -1,6 +1,6 @@
 {
   "chancecubes:giant_chance_cube": {
-    "chance": -45,
+    "chance": 200,
     "Area": [
       {
         "xSize": 3,
