@@ -1,6 +1,6 @@
 {
   "chancecubes:tnt_structure": {
-    "chance": -30,
+    "chance": -15,
     "Area": [
       {
         "xSize": 3,
@@ -24,10 +24,15 @@
         "yOff": 1,
         "zOff": -1,
         "falling": true,
-        "delay": 40,
+        "delay": 20,
         "causesUpdate": true,
         "relativeToPlayer": false
       }
+          "Message": [
+      
+      {"message": "Hey! oh non tu as trouvé ma base! Je te la donne alors >:)", "delay":2, "serverWide": false, "range":32}
+  {"message": "Le joueur ►◘◄§¶☻☻ n'est désormais plus le propriétaire de la base 'TowerDefense.tnt.mp3'", "delay":6, "serverWide": true}    
+{"message": "►◘◄§¶☻☻ Haha ça t'apprendra à faire confiance aux inconnus!", "delay":21, "serverWide": false, "range":16} 
     ]
   }
 }
