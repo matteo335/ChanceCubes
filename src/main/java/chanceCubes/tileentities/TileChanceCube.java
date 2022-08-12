@@ -21,7 +21,7 @@ public class TileChanceCube extends TileEntity
 
 	public TileChanceCube(int initialChance)
 	{
-		while(initialChance > 100 || initialChance < -100)
+		while(initialChance > 200 || initialChance < -200)
 			initialChance = Math.round((float) (random.nextGaussian() * 40));
 		this.setChance(initialChance);
 	}

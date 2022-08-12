@@ -1,9 +1,9 @@
 {
   "chancecubes:exp": {
-    "chance": 35,
+    "chance": 140,
     "Experience": [
       {
-        "experienceAmount": "%%[100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,5000]%%",
+        "experienceAmount": "%%[176000000]%%",
         "numberOfOrbs": "%%RND(1,13)%%"
       }
     ]

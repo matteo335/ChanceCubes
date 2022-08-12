@@ -1,11 +1,11 @@
 {
   "chancecubes:fire_aspect_fire": {
-    "chance": 60,
+    "chance": 70,
     "Item": [
       {
         "item": {
           "id": "minecraft:fire_charge",
-          "Count": 1,
+          "Count": 2,
           "tag": {
             "ench": [
               {

@@ -1,6 +1,6 @@
 {
   "chancecubes:cave_spider_web": {
-    "chance": -30,
+    "chance": -60,
     "Area": [
       {
         "xSize": 7,
