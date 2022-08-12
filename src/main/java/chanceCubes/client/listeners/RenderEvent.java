@@ -15,7 +15,7 @@ public class RenderEvent
 {
 	private static boolean islookingAt = false;
 	private static boolean creatingSchematic = false;
-	private static int chance = -201;
+	private static int chance = -401;
 	private static int chanceIncrease = 0;
 
 	@SubscribeEvent
@@ -38,7 +38,7 @@ public class RenderEvent
 			GlStateManager.pushMatrix();
 			GlStateManager.disableLighting();
 			GlStateManager.color(1F, 1F, 1F, 1F);
-			if(chance == -201)
+			if(chance == -401)
 			{
 				fontrenderer.drawString("The chance of this cube is: Destruction... Probably", (k / 2) - 80, (l / 2) - 30, 16777215);
 			}
@@ -48,7 +48,7 @@ public class RenderEvent
 				if(chanceIncrease != 0)
 				{
 					int c = chance + chanceIncrease;
-					fontrenderer.drawString("Chance with pendants is: " + Math.min(100, Math.max(c, -100)), (k / 2) - 80, (l / 2) - 15, 16777215);
+					fontrenderer.drawString("Chance with pendants is: " + Math.min(200, Math.max(c, -200)), (k / 2) - 80, (l / 2) - 15, 16777215);
 				}
 			}
 			GlStateManager.enableLighting();

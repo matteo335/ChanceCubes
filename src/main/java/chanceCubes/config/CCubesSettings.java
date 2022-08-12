@@ -11,7 +11,7 @@ public class CCubesSettings
 {
 	public static int d20RenderID = -1;
 
-	public static int pendantUses = 12;
+	public static int pendantUses = 6;
 
 	public static boolean enableHardCodedRewards = true;
 
