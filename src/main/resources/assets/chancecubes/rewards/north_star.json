@@ -1,11 +1,11 @@
 {
   "chancecubes:nether_star": {
-    "chance": 100,
+    "chance": 75,
     "Item": [
       {
         "item": {
           "id": "minecraft:nether_star",
-          "Count": 1,
+          "Count": 3,
           "tag": {
             "display": {
               "Name": "North Star"
