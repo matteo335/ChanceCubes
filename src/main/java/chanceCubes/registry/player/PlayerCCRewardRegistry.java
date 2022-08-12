@@ -130,8 +130,8 @@ public class PlayerCCRewardRegistry
 					if(stack.getItemDamage() >= CCubesSettings.pendantUses)
 						player.inventory.setInventorySlotContents(i, ItemStack.EMPTY);
 					chance += pendant.getChanceIncrease();
-					if(chance > 100)
-						chance = 100;
+					if(chance > 200)
+						chance = 200;
 					break;
 				}
 			}
@@ -139,8 +139,8 @@ public class PlayerCCRewardRegistry
 
 		int lowerIndex = 0;
 		int upperIndex = sortedRewards.size() - 1;
-		int lowerRange = Math.max(chance - CCubesSettings.rangeMin, -100);
-		int upperRange = Math.min(chance + CCubesSettings.rangeMax, 100);
+		int lowerRange = Math.max(chance - CCubesSettings.rangeMin, -200);
+		int upperRange = Math.min(chance + CCubesSettings.rangeMax, 200);
 
 		while(sortedRewards.get(lowerIndex).getChanceValue() < lowerRange)
 		{
