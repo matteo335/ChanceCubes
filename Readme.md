@@ -1,1 +1,1 @@
-globally some avanced changes setup/edit for unofficial curseforge modpack. Private use!!!
+globally some avanced changes setup/edit for severals curseforge modpacks.
